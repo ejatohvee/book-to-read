@@ -1,0 +1,19 @@
+.book-search-line {
+    margin-top: 1em;
+}
+
+.book-search-line button {
+    height: 100%;
+    font-size: 1rem;
+    padding: 1em 0.8em;
+
+    background-color: #3764FA;
+    color: white;
+    border-width: 0;
+    border-radius: 0.2em;
+}
+
+.book-search-line input {
+    font-size: 1rem;
+    padding: 0.8em 12em 0.8em 0.5em;
+}

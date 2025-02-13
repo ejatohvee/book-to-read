@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    text-decoration: none;
+}
+
+.menu a:active {
+    color: #4837FA;
+}

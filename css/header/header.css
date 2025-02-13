@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1.5em 1em 1.5em;
+    gap: 1em;
+
+    background-color: #3665FA;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Book to Read, Найти книгу, BookToRead">
+  <meta name="description" content="Сайт для выбора книг Book to Read">
+  <title>Book To Read</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="css/header/header.css" rel="stylesheet">
+  <link href="css/page/page.css" rel="stylesheet">
+  <link href="css/menu/menu.css" rel="stylesheet">
+  <link href="css/main/main.css" rel="stylesheet">
+  <link href="css/main/about/about.css" rel="stylesheet">
+  <link href="css/main/about/content/about__content.css" rel="stylesheet">
+  <link href="css/main/find-new-book-button/main__find-new-book-button.css" rel="stylesheet">
+  <link href="css/book-search-line/book-search-line.css" rel="stylesheet">
+  <link href="css/menu/link/menu__link.css" rel="stylesheet">
+  <link href="css/footer/footer.css" rel="stylesheet">
+
+  <script src="js/activeLink.js"></script>
+</head>
+<body class="page">
+  <header class="header">
+    <h1>Book to Read</h1>
+    <nav class="menu">
+      <a href="index.html">Главная</a>
+      <a href="myBooks.html">Мои книги</a>
+    </nav>
+    <div>Авторизация</div>
+  </header>
+  <main class="main">
+      <form class="book-search-line" action="/search" method="get">
+        <label>
+          <input type="text" name="query" placeholder="Введите название книги">
+        </label>
+        <button type="submit">Найти</button>
+      </form>
+      <div class="about">
+        <section class="about__content">
+          <h2>Не знаешь, что почитать?</h2>
+          <h3>Book to Read поможет тебе найти следующую книгу, которая затянет интересным сюжетом!</h3>
+          <p> Мы представляем собой современную онлайн-платформу для преодоления главной сложности книголюба - найти, что почитать дальше!</p>
+          <article>
+            <h4>Персонализированные рекомендации</h4>
+            <p>На основе анализа уже прочитанных книг система предлагает новые произведения, которые могут прийтись вам по душе. Используя алгоритмы машинного обучения и анализа предпочтений, сайт формирует уникальный список книг для каждого пользователя.</p>
+          </article>
+          <article>
+            <h4>История прочитанных книг</h4>
+            <p>В личном кабинете хранится список всех прочитанных книг с возможностью добавлять отзывы, оценки и комментарии. Это помогает не только отслеживать собственные достижения, но и делиться впечатлениями с другими участниками сообщества.</p>
+          </article>
+          <article>
+            <h4>Сообщество единомышленников</h4>
+            <p>Платформа способствует обмену мнениями: можно оставлять комментарии, участвовать в обсуждениях и создавать списки рекомендаций, что делает процесс поиска новой литературы еще более увлекательным.</p>
+          </article>
+        </section>
+      </div>
+      <button class="main__find-new-book-button">Найти новую книгу!</button>
+  </main>
+  <footer class="footer">
+      <a href="https://t.me/ejatohvee">Telegram</a> &copy; 2025
+  </footer>
+</body>
+</html>

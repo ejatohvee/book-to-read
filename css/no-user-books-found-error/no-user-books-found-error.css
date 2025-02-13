@@ -1,0 +1,5 @@
+.no-user-books-found-error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

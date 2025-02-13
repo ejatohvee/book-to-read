@@ -1,0 +1,4 @@
+.menu__link--active {
+    text-decoration: underline;
+    color: #4837FA;
+}
