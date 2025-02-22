@@ -1,0 +1,7 @@
+.book-card__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    column-gap: 5em;
+    row-gap: 0.5em;
+}

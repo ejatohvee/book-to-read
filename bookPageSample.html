@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Book to Read, Бойцовский клуб, Fight Club, BookToRead">
+  <meta name="description" content="Книга 'Бойцовский Клуб' Чак Паланик на Book to Read">
+  <title>Бойцовский клуб</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+  <link href="css/header/header.css" rel="stylesheet">
+  <link href="css/page/page.css" rel="stylesheet">
+  <link href="css/menu/menu.css" rel="stylesheet">
+  <link href="css/main/main.css" rel="stylesheet">
+  <link href="css/main/about/about.css" rel="stylesheet">
+  <link href="css/main/about/content/about__content.css" rel="stylesheet">
+  <link href="css/main/find-new-book-button/main__find-new-book-button.css" rel="stylesheet">
+  <link href="css/book-search-line/book-search-line.css" rel="stylesheet">
+  <link href="css/menu/link/menu__link.css" rel="stylesheet">
+  <link href="css/footer/footer.css" rel="stylesheet">
+  <link href="css/users-books-list/users-books-list.css" rel="stylesheet">
+  <link href="css/book-card/book-card.css" rel="stylesheet">
+  <link href="css/book-card/book-card__size-l.css" rel="stylesheet">
+  <link href="css/book-card/photo/book-card__photo-l.css" rel="stylesheet">
+  <link href="css/book-card/description/book-card__description-l.css" rel="stylesheet">
+  <link href="css/book-card/delete/book-card__delete.css" rel="stylesheet">
+  <link href="css/book-card/top/book-card__top.css" rel="stylesheet">
+  <link href="css/book-card/bottom/book-card__bottom.css" rel="stylesheet">
+  <link href="css/book-card/comments/book-card__comments-form.css" rel="stylesheet">
+  <link href="css/book-card/comments/card/book-card__comments-card.css" rel="stylesheet">
+
+  <script src="js/comments.js"></script>
+
+</head>
+<body class="page">
+<header class="header">
+  <h1>Book to Read</h1>
+  <nav class="menu">
+    <a href="index.html">Главная</a>
+    <a href="myBooks.html">Мои книги</a>
+  </nav>
+  <div>Авторизация</div>
+</header>
+<main class="main">
+  <section class="book-card book-card__size-l">
+    <div class="book-card__top">
+      <img class="book-card__photo-l" src="content/photos/books/fight_club.webp" alt="Бойцовский Клуб">
+      <div class="book-card__description-l">
+        <h2 class="book-card__title">Бойцовский Клуб</h2>
+        <h3 class="book-card__author">Чак Паланик</h3>
+        <p class="book-card__book-description">
+          В центре сюжета находится герой, страдающий бессонницей, которая вызвана неприятием общества потребления.
+          Также
+          причиной его недуга является недовольство тем, как понимается мужественность в американской культуре.
+          Следуя совету своего доктора, он начинает посещать группы поддержки для больных различными заболеваниями,
+          вследствие чего бессонница отступает. Но через некоторое время такой способ перестаёт действовать.
+          В процессе дальнейшей борьбы с этим герой встречает таинственного человека по имени Тайлер Дёрден и создаёт
+          подпольный бойцовский клуб как радикальную форму психотерапии.
+        </p>
+      </div>
+    </div>
+
+    <div class="book-card__bottom">
+      <form class="book-card__comments-form" id="commentsForm">
+        <h4>Добавьте комментарий к этой книге</h4>
+        <label>
+          Ваше имя
+          <input type="text" placeholder="Введите ваше имя" id="commentatorsName" required>
+        </label>
+        <label>
+          Комментарий
+          <textarea placeholder="Ваш комментарий" id="commentBody" required></textarea>
+        </label>
+        <button type="submit">Оставить комментарий</button>
+      </form>
+      <section id="commentsContainer">
+      </section>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <a href="https://t.me/ejatohvee">Telegram</a> &copy; 2025
+</footer>
+</body>
+</html>

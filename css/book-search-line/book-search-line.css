@@ -17,3 +17,14 @@
     font-size: 1rem;
     padding: 0.8em 12em 0.8em 0.5em;
 }
+
+@media screen and (max-width: 1024px) {
+    .book-search-line input {
+        font-size: 1.4rem;
+        padding: 1em 14em 1em 0.8em;
+    }
+
+    .book-search-line button {
+        font-size: 1.4rem;
+    }
+}

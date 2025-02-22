@@ -22,25 +22,41 @@
   <link href="css/menu/link/menu__link.css" rel="stylesheet">
   <link href="css/footer/footer.css" rel="stylesheet">
   <link href="css/no-user-books-found-error/no-user-books-found-error.css" rel="stylesheet">
+  <link href="css/users-books-list/users-books-list.css" rel="stylesheet">
+  <link href="css/book-card/book-card.css" rel="stylesheet">
+  <link href="css/book-card/book-card__size-m.css" rel="stylesheet">
+  <link href="css/book-card/photo/book-card__photo-m.css" rel="stylesheet">
+  <link href="css/book-card/description/book-card__description-m.css" rel="stylesheet">
+  <link href="css/book-card/delete/book-card__delete.css" rel="stylesheet">
 
 </head>
 <body class="page">
-  <header class="header">
-    <h1>Book to Read</h1>
-    <nav class="menu">
-      <a href="index.html">Главная</a>
-      <a href="myBooks.html">Мои книги</a>
-    </nav>
-    <div>Авторизация</div>
-  </header>
-  <main class="main">
-    <div class="no-user-books-found-error">
-      <h3>Кажется у Вас нет прочитанных книг, самое время это исправить!</h3>
-      <button class="main__find-new-book-button">Найти новую книгу!</button>
+<header class="header">
+  <h1>Book to Read</h1>
+  <nav class="menu">
+    <a href="index.html">Главная</a>
+    <a href="myBooks.html">Мои книги</a>
+  </nav>
+  <div>Авторизация</div>
+</header>
+<main class="main">
+  <h2>Прочитанные вами книги:</h2>
+  <div class="users-books-list">
+    <div class="book-card book-card__size-m">
+      <img class="book-card__photo-m" src="content/photos/books/fight_club.webp" alt="No picture found">
+      <div class="book-card__description-m">
+        <a href="bookPageSample.html">
+          <h3 class="book-card__title">Бойцовский Клуб</h3>
+        </a>
+        <div class="book-card__rating">4,5/5</div>
+        <h4 class="book-card__author">Чак Паланик</h4>
+        <div class="book-card__delete">Удалить</div>
+      </div>
     </div>
-  </main>
-  <footer class="footer">
-    <a href="https://t.me/ejatohvee">Telegram</a> &copy; 2025
-  </footer>
+  </div>
+</main>
+<footer class="footer">
+  <a href="https://t.me/ejatohvee">Telegram</a> &copy; 2025
+</footer>
 </body>
 </html>

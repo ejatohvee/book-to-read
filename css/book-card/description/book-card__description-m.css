@@ -1,0 +1,17 @@
+.book-card__description-m {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5em;
+    row-gap: 0.5em;
+    margin-left: 1em;
+}
+
+.book-card__description-m h3, h4 {
+    margin: 0;
+}
+
+.book-card__description-m a {
+    text-decoration: none;
+    color: inherit;
+}

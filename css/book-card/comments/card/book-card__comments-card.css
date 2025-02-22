@@ -1,0 +1,14 @@
+.book-card__comments-card {
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    padding: 1em 10em 1em 1em;
+
+    font-size: 1rem;
+    margin-top: 0.6em;
+}
+
+@media screen and (max-width: 1024px) {
+    .book-card__comments-card {
+        font-size: 1.3rem;
+    }
+}

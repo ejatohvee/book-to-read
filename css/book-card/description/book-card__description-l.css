@@ -1,0 +1,18 @@
+.book-card__description-l {
+    display: flex;
+    flex-direction: column;
+    column-gap: 4em;
+    row-gap: 0.5em;
+
+    min-width: 400px;
+}
+
+.book-card__description-l h2, h3 {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .book-card__description-l {
+        margin-top: 1em;
+    }
+}

@@ -1,0 +1,13 @@
+.book-card__top {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    column-gap: 5em;
+    row-gap: 0.5em;
+}
+
+@media screen and (max-width: 1024px) {
+    .book-card__top {
+        grid-template-columns: auto;
+    }
+}

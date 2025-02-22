@@ -1,0 +1,8 @@
+.book-card__size-l {
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+}
